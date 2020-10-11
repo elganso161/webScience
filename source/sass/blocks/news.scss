@@ -1,0 +1,136 @@
+.section-news {
+  width: 100%;
+  height: 900px;
+}
+
+.news__title {
+  width: 660px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 120px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #3499af;
+  margin-bottom: 86px;
+}
+
+.news__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news__list-item {
+  list-style: none;
+  width: 320px;
+  height: 240px;
+
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+.news__list-item h5 {
+  width: 270px;
+  min-height: 43px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 50px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.news__list-item p {
+  width: 270px;
+  min-height: 59px;
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0 auto;
+
+}
+
+
+.news-1 {
+  background-image: url(../img/news-img-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 320px 240px;
+  transition: 1s;
+
+  &:hover {
+    background-size: 360px 280px;
+
+  }
+}
+
+.news-2 {
+  background-image: url(../img/news-img-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 320px 240px;
+  transition: 1s;
+
+  &:hover {
+    background-size: 360px 280px;
+
+  }
+}
+
+.news-3 {
+  background-image: url(../img/news-img-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 320px 240px;
+  transition: 1s;
+
+  &:hover {
+    background-size: 360px 280px;
+
+  }
+}
+
+.news-4 {
+  background-image: url(../img/news-img-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 320px 240px;
+  transition: 1s;
+
+  &:hover {
+    background-size: 360px 280px;
+
+  }
+}
+
+.news-5 {
+  background-image: url(../img/news-img-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 320px 240px;
+  transition: 1s;
+
+  &:hover {
+    background-size: 360px 280px;
+
+  }
+}
+
+.news-6 {
+  background-image: url(../img/news-img-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 320px 240px;
+  transition: 1s;
+
+  &:hover {
+    background-size: 360px 280px;
+
+  }
+}

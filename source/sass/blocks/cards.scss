@@ -1,0 +1,157 @@
+.cards__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  flex-wrap: wrap;
+  margin-bottom: 86px;
+}
+
+.cards__list-item {
+  list-style: none;
+  width: 246px;
+  height: 246px;
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+  border-radius: 10px;
+
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cards__list-item h4 {
+  width: 115px;
+  height: 22px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin: 30px 0 20px 14px;
+}
+
+.cards__list-item-line {
+  width: 140px;
+  height: 2px;
+  background-color: #3499af;
+  margin-bottom: 16px;
+}
+
+.cards__list-item p {
+  width: 230px;
+  height: 60px;
+
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+  margin-left: 14px;
+  margin-bottom: 20px;
+}
+
+.cards__list-item a {
+  text-decoration: none;
+  display: block;
+  width: 156px;
+  height: 40px;
+  text-align: center;
+  padding: 9px;
+  border: 2px solid #3499af;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0e;
+  margin-left: 14px;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: #55bed6;
+    color: #fff;
+
+  }
+
+  &:active {
+    background-color: #3499af;
+  }
+}
+
+.cards__footer {
+  margin-bottom: 120px;
+}
+
+.cards__footer-title {
+  width: 692px;
+  height: 56px;
+
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #0e0e0e;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 116px;
+}
+
+.cards__footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards__footer-list-item {
+  list-style: none;
+  width: 310px;
+  text-align: center;
+}
+
+.footer-card-1 {
+  position: relative;
+}
+
+.footer-card-1::before {
+  position: absolute;
+  content: '';
+  top: -75px;
+  left: 130px;
+  z-index: 10;
+  background-image: url(../img/blue-star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 46px 46px;
+  width: 46px;
+  height: 46px;
+}
+
+.footer-card-2 {
+  position: relative;
+}
+
+.footer-card-2::before {
+  position: absolute;
+  content: '';
+  top: -75px;
+  left: 130px;
+  z-index: 10;
+  background-image: url(../img/blue-star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 46px 46px;
+  width: 46px;
+  height: 46px;
+}
+
+.footer-card-3 {
+  position: relative;
+}
+
+.footer-card-3::before {
+  position: absolute;
+  content: '';
+  top: -75px;
+  left: 130px;
+  z-index: 10;
+  background-image: url(../img/blue-star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 46px 46px;
+  width: 46px;
+  height: 46px;
+}

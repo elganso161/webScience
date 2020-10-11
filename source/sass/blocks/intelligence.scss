@@ -1,0 +1,52 @@
+.intelligence__title {
+  width: 660px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  color: #3499af;
+  padding-top: 240px;
+  margin: 0 auto;
+  margin-bottom: 86px;
+}
+
+.intelligence__list-item {
+  list-style: none;
+  width: 920px;
+  height: auto;
+  min-height: 340px;
+  margin: 0 auto;
+  background: #F9F9F9;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.intelligence__list-item h3 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  width: 534px;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-bottom: 24px;
+}
+
+.intelligence__list-item p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  width: 790px;
+  padding-left: 50px;
+  padding-top: 24px;
+}
+
+.intelligence__list-item p:last-child {
+  padding-bottom: 50px;
+}
+
+.intelligence-line {
+  width: 650px;
+  height: 4px;
+  background-color: #3499AF;
+}
