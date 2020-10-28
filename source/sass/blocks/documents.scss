@@ -24,6 +24,11 @@
   justify-content: space-between;
   border: 1px solid #F9F9F9;
   align-items: center;
+  transition: 0.3s;
+
+  &:hover {
+    border-left: 1px solid #3499af;
+  }
 }
 
 .documents__list-item p {
